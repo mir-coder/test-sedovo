@@ -528,9 +528,10 @@ body {
 
 main {
   flex-grow: 1;
-  position: relative;
+  background-color: var(--color-light-20);
+/*   position: relative; */
 }
-main::before {
+/* main::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -538,7 +539,7 @@ main::before {
   background-size: 18.125rem;
   opacity: 0.2;
   z-index: 1;
-}
+} */
 
 section {
   position: relative;
@@ -1116,6 +1117,12 @@ select {
     max-width: 43.75rem;
   }
 }
+.section-catalog block-title__title {
+  color: #ffffff;
+}
+.section-catalog block-title__subtitle {
+  color: #ffffff;
+} 
 
 .section-catalog__items {
   display: flex;
