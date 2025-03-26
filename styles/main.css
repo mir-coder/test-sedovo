@@ -1079,7 +1079,6 @@ select {
   display: flex;
   flex-direction: column;
   row-gap: 0.9375rem;
-  margin-bottom: clamp(2.5rem, 2.181372549rem + 1.3071895425vw, 3.75rem);
 }
 .block-title__subtitle {
   font-family: var(--font-family-accent);
