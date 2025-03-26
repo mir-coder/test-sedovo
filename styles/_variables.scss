@@ -1,0 +1,41 @@
+@use 'helpers' as *;
+
+:root{
+    --color-light: #ffffff;
+    --color-light-20: #B4CCE3;
+    --color-light-10: #F5F9FF;
+
+    --color-dark: #242829;
+    --color-dark-80: #011627;
+    --color-dark-70: rgba(1, 22, 39, 0.7);
+
+    --color-gray: #C4C4C4;
+    --color-gray-40: #D9D9D9;
+
+    --color-accent: #4495E1;
+    --color-accent-60: #5799D7;
+    --color-accent-50: #93BDE4;
+    --color-accent-20: rgba(87, 153, 215, 0.4);
+    --color-accent-10: #DEEFFF;
+
+    --color-line: rgba(87, 153, 215, 0.3);
+
+    --color-red: #f74545;
+
+    --font-family-base: 'Montserrat', sans-serif;
+    --font-family-accent: 'Nunito', sans-serif;
+    --font-family-dop: 'Lato', sans-serif;
+
+    --container-width: #{rem(1200)};
+    --container-padding-x: #{rem(15)};
+
+    --border: #{rem(1) solid var(--color-accent-20)};
+
+    --shadow: 0 0 0 #{rem(3)} #5799D7;
+
+    --transition-duration: 0.2s;
+
+    --bg-front: url('../images/bg/bg-page.jpg');
+}
+
+

@@ -1,0 +1,26 @@
+@use '../helpers' as *;
+
+.section-about{
+    background-color: var(--color-light-10);
+    text-align: center;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url('./../images/bg/bg-img-about.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: 0;
+        left: 0;
+        width: fluid(230, 67);
+        height: 100%;
+    }
+
+    &__block-title{
+        max-width: rem(815);
+
+        @include tablet{
+            max-width: rem(700);
+        }
+    }
+}

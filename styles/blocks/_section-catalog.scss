@@ -1,0 +1,15 @@
+@use '../helpers' as *;
+
+.section-catalog{
+    &__items{
+        display: flex;
+        flex-direction: column;
+        row-gap: rem(30);
+        margin-bottom: fluid(60, 30);
+    }
+    
+    &__button{
+        max-width: rem(220);
+        margin: auto;
+    }
+}

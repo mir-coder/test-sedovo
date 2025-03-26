@@ -1,0 +1,25 @@
+@use '../helpers' as *;
+
+.block-title{
+    max-width: rem(650);
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(15);
+    margin-bottom: fluid(60, 40);
+
+    &__subtitle{
+        font-family: var(--font-family-accent);
+        font-weight: 600;
+        line-height: 120%;
+        font-size: rem(20);
+        color: var(--color-dark-70);
+        
+        &-dop{
+            color: var(--color-accent);
+            font-size: rem(16);
+            font-weight: 700;
+        }
+    }
+}

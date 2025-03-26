@@ -1,0 +1,37 @@
+@use 'normalize';
+@use 'fonts';
+@use 'variables';
+@use 'utils';
+@use 'global';
+
+@use 'blocks/header';
+@use 'blocks/burger-button';
+@use 'blocks/menu';
+@use 'blocks/soc1als';
+@use 'blocks/sections';
+@use 'blocks/section-banner';
+@use 'blocks/feedback-form';
+@use 'blocks/checkbox';
+@use 'blocks/field';
+@use 'blocks/group-input';
+@use 'blocks/button';
+@use 'blocks/select';
+@use 'blocks/block-title';
+@use 'blocks/section-about';
+@use 'blocks/section-catalog';
+@use 'blocks/card';
+@use 'blocks/section-benefit';
+@use 'blocks/benefit';
+
+@use 'blocks/section-contacts';
+@use 'blocks/map';
+@use 'blocks/footer';
+
+
+
+
+.header,
+main > *:not(:last-child),
+.footer {
+    display: none !important;
+}
